@@ -1,0 +1,10 @@
+.home-section {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-section hr {
+    border-top: 5px dotted #fff;
+    width: 80%;
+}

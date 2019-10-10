@@ -1,0 +1,10 @@
+.tech-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tech-container .icon {
+    font-size: 4.5em;
+    color: #fff;
+}

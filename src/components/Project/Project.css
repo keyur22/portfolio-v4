@@ -1,0 +1,14 @@
+.centerContainer {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.projects-section .card {
+    transition: all 0.4s;
+}
+
+.projects-section .card:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
