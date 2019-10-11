@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container, Row, Col, Image, Jumbotron } from 'react-bootstrap';
-import profile from './avatar-1.png';
-import './Home.css';
+
 import SocialIcon from '../SocialIcon/SocialIcon';
+import profile from './avatar.png';
+
+import './Home.css';
 
 const skills = ['HTML / CSS', 'Bootstrap / SCSS', 'JavaScript', 'React', 'NodeJS', 'ExpressJS', 'PostgreSql'];
 

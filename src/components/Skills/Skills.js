@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+
 import './Skills.css';
 
 const iconNames = ['html5', 'css3', 'javascript', 'bootstrap', 'react', 'nodejs', 'express', 'postgresql', 'jquery', 'php', 'wordpress'];
@@ -10,7 +11,7 @@ const Skills = () => {
             <div className="bg-dark p-3 p-md-4 border rounded border-dark w-100">
                 <Row>
                     <Col xs={12} className="mx-auto">
-                        <h2 className="text-center text-light">
+                        <h2 className="text-center text-light font-weight-bold">
                             Technologies I have coded in...
                         </h2>
                     </Col>

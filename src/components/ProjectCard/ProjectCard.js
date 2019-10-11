@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
+
 import ProjectModal from '../ProjectModal/ProjectModal';
 
 const ProjectCard = ({ data }) => {
@@ -11,7 +12,7 @@ const ProjectCard = ({ data }) => {
                 <Card.Body>
                     <p className="text-center font-weight-bold text-uppercase">{data.name}</p>
                     <Card.Text>
-                        {data.excerpt};
+                        {data.excerpt}
                     </Card.Text>
                 </Card.Body>
             </Card>
