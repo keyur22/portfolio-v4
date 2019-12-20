@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 
-import Resume from '../../projectDetails/resume.pdf';
+import Resume from '../../projectDetails/resume-full.pdf';
 
 import './SocialIcon.css';
 
